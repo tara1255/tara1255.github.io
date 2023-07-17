@@ -23,18 +23,18 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="flutter_web_app">
+  <meta name="apple-mobile-web-app-title" content="senyumku_embedded_banking">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>flutter_web_app</title>
+  <title>senyumku_embedded_banking</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '4180688071';
+    var serviceWorkerVersion = '4273272630';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -53,6 +53,16 @@
         return appRunner.runApp();
       });
     });
+    
+    /// Add the javascript native function call in here
+
+    /// Show toast in the native application from the webview (javascript)
+    function showMessageInNative(message) {
+        JSBridge.showMessageInNative(message);
+    }
+    function getSdkVersionInNative() {
+        return JSBridge.getSdkVersionInNative();
+    }
   </script>
 </body>
 </html>

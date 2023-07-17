@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <linearGradient id="6x95hjvw8a" x1="0%" x2="100%" y1="49.844%" y2="49.844%">
+            <stop offset="0%" stop-color="#00B6C6"/>
+            <stop offset="39%" stop-color="#008DBB"/>
+            <stop offset="100%" stop-color="#0050AA"/>
+        </linearGradient>
+        <linearGradient id="pzqn61qq8b" x1="31.808%" x2="70.385%" y1="89.078%" y2="14.036%">
+            <stop offset="0%" stop-color="#0050AA"/>
+            <stop offset="61%" stop-color="#008DBB"/>
+            <stop offset="100%" stop-color="#00B6C6"/>
+        </linearGradient>
+        <linearGradient id="wcizpkq6ec" x1="0%" x2="100.067%" y1="50%" y2="50%">
+            <stop offset="0%" stop-color="#20B5C4"/>
+            <stop offset="70%" stop-color="#17CAC8"/>
+        </linearGradient>
+        <linearGradient id="xgmirwwobd" x1="50%" x2="50%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="#62D15D"/>
+            <stop offset="100%" stop-color="#BBDE39"/>
+        </linearGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g transform="translate(-14 -122) translate(14 122)">
+                <rect width="29.412" height="29.412" x=".563" y=".563" rx="7.67"/>
+                <path fill="url(#6x95hjvw8a)" fill-rule="nonzero" d="M14.443 24.827c4.528.043 8.31-3.443 8.633-7.96-.945 2.663-3.19 4.655-5.946 5.276-2.756.622-5.638-.215-7.634-2.214l-1.978 2.387c1.629 1.702 4.268 2.51 6.925 2.51z"/>
+                <path fill="url(#pzqn61qq8b)" fill-rule="nonzero" d="M18.765 5.835v8.375c-.007 2.754-1.896 5.146-4.573 5.792.458.117.929.179 1.402.184 3.299-.004 5.972-2.677 5.975-5.976V5.835h-2.804z"/>
+                <path fill="url(#wcizpkq6ec)" fill-rule="nonzero" d="M15.588 15.429c-.487-.002-.967-.118-1.402-.337-1.087-.533-1.776-1.637-1.776-2.847v-6.41H9.612v6.41c0 2.81 1.788 5.37 4.574 5.37 2.926 0 4.573-2.56 4.573-5.37.002.843-.331 1.652-.926 2.249-.595.597-1.403.933-2.245.935z"/>
+                <path fill="url(#xgmirwwobd)" fill-rule="nonzero" d="M15.588 15.429c-.844 0-1.653-.336-2.25-.933-.595-.598-.93-1.407-.928-2.251V5.829H9.612v3.618c0 3.301 2.675 5.978 5.976 5.982z"/>
+            </g>
+        </g>
+    </g>
+</svg>
