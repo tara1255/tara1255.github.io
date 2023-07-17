@@ -23,18 +23,18 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="flutter_webapp">
+  <meta name="apple-mobile-web-app-title" content="flutter_web_app">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>flutter_webapp</title>
+  <title>flutter_web_app</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    var serviceWorkerVersion = '3590729305';
+    var serviceWorkerVersion = '4180688071';
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
@@ -53,51 +53,6 @@
         return appRunner.runApp();
       });
     });
-    
-    /// Add the javascript native function call in here
-
-    /// Show toast in the native application from the webview (javascript)
-    function showMessageInNative(message) {
-        JSBridge.showMessageInNative(message);
-    }
-    function getSdkVersionInNative() {
-        return JSBridge.getSdkVersionInNative();
-    }
-    async function asyncMethodCall() {
-        // console.log('a');
-        // console.log('waiting...')
-        // let delayres = await delay(3000);
-        // console.log('b');
-
-        alert("before setTimeout");
-
-        // setTimeout(function () {
-        //   alert("I am setTimeout");
-        // }, 3000); //delay is in milliseconds 
-
-        // alert("after setTimeout");
-
-        return "Finish"
-        // [fileHandle] = await window.showOpenFilePicker();
-        // const file = await fileHandle.getFile();
-        // console.log('File info ----> ', file);
-
-        // if (file != null) {
-        //   const parser = new window.AppInfoParser(file);
-        //   const result = await parser.parse();
-        //   console.log('app info ----> ', result);
-        //   console.log('icon base64 ----> ', result.icon);
-
-        //   finalResult = result;
-
-        // } else {
-        //   finalResult = 'File not selected';
-        //   console.log('File not selected')
-        // }
-
-        // return finalResult;
-        // return Promise.resolve(finalResult)
-      }
   </script>
 </body>
 </html>
