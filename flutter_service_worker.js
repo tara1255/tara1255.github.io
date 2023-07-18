@@ -4,10 +4,9 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "08da7b9c3a1c49c5675717b54c174e43",
-"index.html": "fa48fdc8badc8ffd2b45e3dcc96c5da8",
-"/": "fa48fdc8badc8ffd2b45e3dcc96c5da8",
-"main.dart.js": "7cb250eac62256ee654b30263413ac41",
-"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
+"index.html": "74c0d5ed83f25f9ad750bf68755bc65d",
+"/": "74c0d5ed83f25f9ad750bf68755bc65d",
+"main.dart.js": "36251a5d182e73ed66445b75c56feb3b",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -83,11 +82,7 @@ const RESOURCES = {
 "assets/assets/fonts/Muli/Muli-SemiBold.ttf": "e74e966f227e49bb0f0d9cf3b8624064",
 "assets/assets/fonts/Muli/Muli-SemiBoldItalic.ttf": "cf39d947cb83d4cbe7ae8ea1bfb1e911",
 "assets/assets/fonts/Muli/Muli-BlackItalic.ttf": "251b9e202ce65824ad9648ed5cdef077",
-"assets/assets/fonts/Muli/Muli.ttf": "df7330254513d2fa2f4c1e9ee98cc6c6",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba"
+"assets/assets/fonts/Muli/Muli.ttf": "df7330254513d2fa2f4c1e9ee98cc6c6"
 };
 
 // The application shell files that are downloaded before a service worker can
